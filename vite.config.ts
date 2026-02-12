@@ -6,5 +6,13 @@ export default defineConfig({
   plugins: [
     typescript(),
     react(),
+    {
+      name: 'suppress-urls',
+      configureServer(server) {
+        return () => {
+          server.printUrls = () => { }
+        }
+      },
+    },
   ],
 })
