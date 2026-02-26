@@ -34,7 +34,7 @@ export function Settings() {
       <SettingsDivider />
 
       <SettingsField>
-        <SettingsLabel>Subtitle Text Test</SettingsLabel>
+        <SettingsLabel>Subtitle Text</SettingsLabel>
         <SettingsInputFrame>
           <input
             type="text"
